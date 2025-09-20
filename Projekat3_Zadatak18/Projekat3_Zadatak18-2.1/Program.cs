@@ -4,6 +4,7 @@
     {
         static void Main()
         {
+            //url treba biti oblika http://localhost:5050/ingredients?letter={slovo}
             string urlPrefix = "http://localhost:5050/";
             Server server = new Server(urlPrefix);
             server.Start();
